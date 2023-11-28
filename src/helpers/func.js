@@ -62,7 +62,6 @@ export const generateCalendar = () => {
   const lastDay = new Date(fiftyWeeksAgo).getDay();
   const oldDays = daysUntilEndOfWeek(lastDay, false);
   const oldCountDay = new Date(fiftyWeeksAgo);
-  console.log(new Date(fiftyWeeksAgo));
 
   const nextDays = daysUntilEndOfWeek(today.getDay(), true);
 

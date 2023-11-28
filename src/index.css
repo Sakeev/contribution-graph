@@ -132,3 +132,14 @@ body {
   visibility: visible;
   opacity: 1;
 }
+
+.tooltip-content::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 10px 7px 0;
+  border-color: #333 transparent transparent;
+}
